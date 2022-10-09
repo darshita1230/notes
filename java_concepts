@@ -24,3 +24,17 @@ JVM: JVM = Only the runtime environment that helps in executing the Java bytecod
 The JVM enables a user to run applications on their device or in a cloud environment. JVM can also execute a Java program line by line. It is thus also known as an interpreter.
 
 
+4. Difference between method overloading and overriding?
+>>>
+5.What is polymorphism?
+Polymorphism in Java is a concept by which we can perform a single action in different ways.
+There are two types of polymorphism in Java: compile-time polymorphism and runtime polymorphism. We can perform polymorphism in java by method overloading and method overriding.
+Ex . Bank b  = new ICICI(); parent object is formed by calling sub class constructor
+And it executes the thing defined in the sub class/derived class
+Oveeriding is dynamic binding
+So this is called compile-time polymorphism or static or early binding. Compile-time polymorphism is achieved through method overloading.It has nothing to do with inheritence.
+ 
+6.
+
+
+
