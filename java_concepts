@@ -1,1 +1,26 @@
 All Java concepts
+1. What is a class?
+ A class in Java is a logical template/blueprint to create objects that share common properties and methods.An object created from the class inherits its properties.
+ 
+2.Features of java:
+>object oriented:
+>platform independent:Java is guaranteed to be write-once, run-anywhere language.On compilation Java program is compiled into bytecode. This bytecode is platform independent and can be run on any machine.
+>security:Java program always runs in Java runtime environment with almost null interaction with system OS, hence it is more secure.
+>multithreading: Multithreading is a Java feature that allows concurrent execution of two or more parts of a program for maximum utilization of CPU.
+>Distributed: Programs can be designed to run on computer networks. Java has a special class library for communicating using TCP/IP protocols.
+
+3.Difference between JDK , JRE , AND JVM?
+JDK: The JDK (Java Development Kit) is a software development kit that develops applications in Java. Along with JRE,
+the JDK also consists of various development tools (Java Debugger, JavaDoc, compilers, etc.)
+The JDK is platform-dependent. It means that for every different platform, you require a different JDK.
+JDK = Development Tools + JRE (Java Runtime Environment).It has various development tools like the debugger, compiler, etc.
+
+JRE:It is a type of software package that provides class libraries of Java, JVM, and various other components for running the applications written in Java programming.
+JRE has a major responsibility for creating an environment for the execution of code. It is platform dependent. It rather contains various supporting files for JVM, and the class libraries that help JVM in running the program.
+JRE = Libraries for running the application + JVM (Java Virtual Machine)
+A developer can easily run a source code in JRE. JRE also contains various integration libraries like the JDBC (Java Database Connectivity), JNDI (Java Naming and Directory Interface), RMI (Remote Method Invocation), and many more.
+
+JVM: JVM = Only the runtime environment that helps in executing the Java bytecode. JVM also provides some basic Java functions, such as garbage collection, security, memory management, and many more.
+The JVM enables a user to run applications on their device or in a cloud environment. JVM can also execute a Java program line by line. It is thus also known as an interpreter.
+
+
