@@ -34,7 +34,20 @@ And it executes the thing defined in the sub class/derived class
 Oveeriding is dynamic binding
 So this is called compile-time polymorphism or static or early binding. Compile-time polymorphism is achieved through method overloading.It has nothing to do with inheritence.
  
-6.
+6.What is abstraction?
+abstraction is a process of hiding the implementation details from the user, only the functionality will be provided to the user. 
+In other words, the user will have the information on what the object does instead of how it does it.
+In Java, abstraction is achieved using Abstract classes and interfaces.
+[Abstract class]
+Ex: Employee is abstract class , Salary class is derived class
+You cannot create/initiate an employee class but you can initiate a derived class, and all the parent methods will work;
+(****We gotta try doing run time polymorphism in such case though)
+[Abstract method]
+Or you can do abstract method, you cannot call that method, but u can iniate that class' object bc the class is not absttract only the method.
+Derived class objects can implement the method.
+
+
+
 
 
 
